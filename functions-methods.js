@@ -68,6 +68,7 @@
             if (emailadres.includes(",")) {
                 return "false; this is not a valid e-mail";
             }
+            return "false; this is a valid e-mail";
         }
         return "false; this is not a valid e-mail";
     }
